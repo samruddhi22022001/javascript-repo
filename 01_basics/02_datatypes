@@ -1,0 +1,23 @@
+"use strict"; // treat js code as newer version
+console.log("hello");
+
+// code redability should be high 
+
+//datatypes
+
+let name= "hitesh";
+let age = 15;
+let loggedIn = false;
+
+//number
+//bigint
+//sting => ""
+//boolean => true/false
+//null => standalone value
+//undefine => not define 
+//symbol => unique
+
+
+//object
+
+console.log(typeof "samruddhi");
