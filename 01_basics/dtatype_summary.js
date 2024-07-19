@@ -42,3 +42,28 @@ const myFunction = function (){
     console.log("Hello world")
 
 }
+
+
+//******************************** Stack and Heap Mamory in JavaScript*****************************/
+
+// Stack(primitive), Heap ( Non-Premitive)
+
+let myYoutubeName = " Samruddhi "
+let anotherName = myYoutubeName
+anotherName = " Kalyani ";
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "samruddhi@gmail.com",
+    upi: "user@ybl",
+
+}
+
+let userTwo = userOne;
+userTwo.email = "kulkarni@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
