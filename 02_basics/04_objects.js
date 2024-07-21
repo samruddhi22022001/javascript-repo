@@ -64,5 +64,26 @@ console.log(Object.values(noUser));
 console.log(Object.entries(noUser));
 console.log(noUser.hasOwnProperty('namee'));
 
+// object destructuring 
 
+const course = {
+    courseName: "Python",
+    price: 999,
+    courseInstructor: "Manav"
+}
 
+console.log(course.courseInstructor);
+
+const {courseInstructor} = course;
+const {courseInstructor : instructor} = course;
+
+console.log(courseInstructor);
+
+console.log(instructor);
+
+//API are in json format 
+/*{
+     "name": "kliya",
+   "add": "nothing",
+    "add": "nothing"
+ } */
