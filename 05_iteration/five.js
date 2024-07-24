@@ -18,3 +18,25 @@ coading.forEach((item, index, arr) => {
     console.log(item, index, arr)
     
 });
+
+
+const Mycoading = [
+    {
+        languageName: "JavaScript",
+        languageFileName: "js"
+    },
+    {
+        languageName: "Python",
+        languageFileName: "Py"
+    },
+    {
+        languageName: "java",
+        languageFileName: "java"
+    }
+     
+]
+
+Mycoading.forEach((item) => {
+    console.log(item.languageName);
+    
+});
